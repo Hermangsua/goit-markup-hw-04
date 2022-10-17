@@ -193,7 +193,7 @@ text-decoration: none;
 }
 .section-hero{
     background-image: linear-gradient(to top,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
-    background-image: url(/images/Img\ \(16\).jpg);
+    background-image: url(/images/Imghero.jpg);
     background-repeat:no-repeat;
     object-fit: cover;
     background-position: 50% 50%;
