@@ -313,8 +313,12 @@ color: var(--footer-link-color);
 color: var( --footer-link-adress-color);
 }
 address {
-    font-style: normal;
-  }
+font-style: normal;
+ }
+.footer-link:hover,
+.footer-link:focus{
+color: var(--accent-color);
+}
 .footer-bg address{
     font-weight: 400;
     font-size: 14px;
@@ -407,6 +411,7 @@ cursor: pointer;
 padding-top: 20px;
 padding-bottom: 20px;
 padding-left: 24px;
+padding-right: 24px;
 border: 1px solid #EEEEEE;
 border-top: none;
 }
@@ -537,6 +542,12 @@ fill: var(--social-link-fill);
 .our-partners-link:hover{
     border: 1px solid #2196F3;
     border-radius: 4px;
+}
+.icon-contact{
+margin-right: 10px;    
+}
+.contact-link-header:hover .icon-contact{
+fill: var(--accent-color);
 }
 
 
