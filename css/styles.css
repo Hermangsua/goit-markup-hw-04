@@ -192,8 +192,8 @@ text-decoration: none;
     text-transform: uppercase;
 }
 .section-hero{
-    background-image: linear-gradient(to top,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
-    background-image: url(/images/Imghero.jpg);
+    
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/Imghero.jpg);
     background-repeat:no-repeat;
     object-fit: cover;
     background-position: 50% 50%;
@@ -211,11 +211,11 @@ text-decoration: none;
 margin-right: 30px;
 }
 .our-advance-content .our-advance-discr{
-    width: 270px;
+width: 270px;
 }
 
 .our-advance-main{
-    margin-top: 0;
+margin-top: 0;
 }
 .our-advance{
 padding-top: 94px;
