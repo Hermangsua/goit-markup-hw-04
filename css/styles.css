@@ -102,6 +102,7 @@ text-decoration: none;
 .site-links{
     display: flex;
     margin-left:auto;
+    align-items: center;
 }
 .site-links li:not(:last-child){
 margin-right: 50px;
@@ -195,6 +196,9 @@ text-decoration: none;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Imghero.jpg);
     background-repeat:no-repeat;
     object-fit: cover;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     background-position: 50% 50%;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -492,6 +496,7 @@ display: flex;
     background-color: rgba(255, 255, 255, 0.1);
 }
 .footer-social-link-title{
+font-weight: 700;
 margin-top: 12px;
 margin-bottom: 0;
 line-height: 1.14;
@@ -544,11 +549,13 @@ fill: var(--social-link-fill);
     border-radius: 4px;
 }
 .icon-contact{
-margin-right: 10px;    
+margin-right: 10px; 
+
 }
 .contact-link-header:hover .icon-contact{
 fill: var(--accent-color);
 }
+
 
 
 
