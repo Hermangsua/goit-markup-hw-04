@@ -108,7 +108,7 @@ text-decoration: none;
 margin-right: 50px;
 }
 .site-links a{
-display: block;
+/* display: block; */
 padding-top: 32px;
 padding-bottom: 32px;
 color:var(--main-text-color);
@@ -556,6 +556,9 @@ margin-right: 10px;
 fill: var(--accent-color);
 }
 
-
+.telefonlink{
+display: flex;
+align-items: center;    
+}
 
 
